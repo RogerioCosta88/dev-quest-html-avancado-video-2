@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Video parte 2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vídeo parte 2</h1>
+    <p>É importante considerar a inclusão de tipos de extensão diferentes para a <strong>Tag</strong> de <strong>video</strong>, assim como fazemos com a <strong>Tag</strong> de <strong>audio</strong>, porque alguns <em>navegadores</em> não tem suporte para determinados tipos de extensão. Na internet, encontramos sites que fazer a conversão de extensão.</p>
+
+    <video controls width="500" autoplay loop>
+        <source src="./video/video.mp4" type="video/mp4">
+        <source src="./video/video.ogv" type="video/ogg">
+        <source src="./video/video.webm" type="video/webm">
+
+        <p>Esse navegador não têm suporte a tag video.</p>
+    </video>
+
+    <p>Incluir vídeos dessa forma pode não ser a melhor escolha, porque deixa o site mais pesado, além de ocupar mais espaço na hospedagem do site, deixando mais cara a hospedagem. Usar sites como o <a href="http://youtube.com" target="_blank"><strong>YouTube</strong></a> deve ser levado em consideração.</p>
+</body>
+</html>

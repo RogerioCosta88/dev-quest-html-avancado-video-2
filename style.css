@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #DC143C;
+}
+
+p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 50px;
+}
